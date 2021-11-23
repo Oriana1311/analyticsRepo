@@ -1,0 +1,105 @@
+/*RESPONSIVE*/
+
+@media (min-width:810px) {
+
+    /*MENU CABECERA*/
+
+    header .redesHeader{
+        justify-content: flex-end;
+    }
+
+    #menu{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10vh;
+    }
+
+    #menu ul{
+        display: inline-flex;
+        flex-direction: row;
+    }
+
+    /*SECCION - VIDEO*/
+
+    #video{
+        width: 80%;
+    }
+    
+    #video iframe{
+        height: 35vh;
+    }
+
+    /*FORMULARIO*/
+
+    .login{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        border-radius: 10px;
+    }
+
+    #form input{
+        width: 80%;
+    }
+
+    #form ul li a{
+        font-size: 15px;
+    }
+
+    input[type="submit"]{
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+        letter-spacing: 1px;
+    }
+    
+    /*CONTENIDO*/
+
+    .caja-flex{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr;
+        width: 80%;
+    }
+
+    .caja-flex article{
+        width: 280px;
+        height: 180px;
+        background-color: whitesmoke;
+        color:black;
+        margin: 0.5em;
+        padding-top: 10px;
+    }
+
+    .caja-flex:last-child{
+        margin-bottom: 1em;
+    }
+
+    .fuente{
+        font-size: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    /*FOOTER*/
+
+    .footer{
+        flex-direction: row;
+    }
+
+    .footer p{
+        width: 50%;
+    }
+
+    .footer .redesFooter{
+        justify-content: flex-end;
+        width: 25%;
+    }
+
+    .footer .logo{
+        text-align: left;
+        width: 25%;
+        margin-top: 0em;
+    }
+}
+
